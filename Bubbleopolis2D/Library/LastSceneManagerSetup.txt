@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/2D platformer.unity
+  isLoaded: 1
+  isActive: 1
