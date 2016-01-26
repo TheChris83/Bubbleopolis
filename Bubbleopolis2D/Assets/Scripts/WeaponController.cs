@@ -10,11 +10,11 @@ public class WeaponController : MonoBehaviour
 
 	void Start ()
 	{
-		InvokeRepeating ("Fire", delay, fireRate);
+		InvokeRepeating ("Fire", delay, fireRate);//slows down fire rate
 	}
 
 	void Fire ()
 	{
-		Instantiate(shot, shotSpawn.position, shotSpawn.rotation);
+		Instantiate(shot, shotSpawn.position, shotSpawn.rotation);//spawns the bullet
 	}
 }
